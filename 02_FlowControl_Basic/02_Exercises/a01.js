@@ -4,6 +4,7 @@ A. Using if-then-else, determine discounts correctly based on the given comments
 B. Check with different values for variable 'age' that discounts
 are computed correctly.
  */
+'use strict';
 //Assign to variable 'age' i.e. 35 which means 35 years old
 //??
 //if the age is 6 or younger, then admission is free
@@ -11,6 +12,10 @@ are computed correctly.
 //??
 //??
 //if age is younger than 16, then there is a child discount
+//??
+//??
+//??
+//if age is younger or equal than 25, then there is a youngster discount
 //??
 //??
 //??
