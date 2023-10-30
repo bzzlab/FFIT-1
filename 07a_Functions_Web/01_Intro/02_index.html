@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Functions</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles/basic.css" type="text/css">
+    <script src="js/scripts.js"></script>
+</head>
+<body>
+<main>
+    <section>
+        <aside>
+            <h3>Einfache Meldung auf Knopfdruck ausgeben</h3>
+            <p>see messages..</p>
+            <ul>
+                <li>Webconsole</li>
+                <li>Webseite</li>
+            </ul>
+        </aside>
+        <aside>
+            <p>
+                <!-- input filed -->
+                <label for="eingabe">Klasse:&nbsp;</label>
+                <input type="text" id="eingabe" size="20"
+                       placeholder="Kurzbezeichnung" required>
+                <!-- Variant with parameter -->
+                <input type="submit" id="btnMeldung"
+                       value="Meldung ausgeben!"
+                        onclick="hello2(document.getElementById('eingabe').value)">
+            </p>
+        </aside>
+        <aside>
+            <p id="out"></p>
+        </aside>
+    </section>
+</main>
+</body>
+</html>

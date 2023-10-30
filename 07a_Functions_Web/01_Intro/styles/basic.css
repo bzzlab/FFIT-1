@@ -1,0 +1,41 @@
+section {
+    width: 295px;
+    padding: 10px;
+    margin: 0px 5px 5px 20px;
+    border: 1px dotted gray;
+    background-color: lightblue;
+}
+
+aside {
+    display: inline-block;
+    width: 240px;
+    padding: 10px;
+    margin: 0px 5px 5px 20px;
+    border: 1px solid cornflowerblue;
+    background-color: transparent;
+    /*text-align: center;*/
+}
+
+
+main {
+    font-family: sans-serif;
+    width: 90%;
+    padding: 10px;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+}
+input [type='text'] {
+    text-align: right;
+}
+
+input[type='submit'] {
+    width: 150px;
+    margin-top: 1rem;
+}
+
+
+#out {
+    margin-top: 2rem;
+    color: red;
+}
