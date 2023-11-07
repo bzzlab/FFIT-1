@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Währungsrechner - Funktionen</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/devisen.css">
+    <!-- call javascript. More details https://javascript.info/script-async-defer -->
+    <script defer src="js/scripts-A.js"></script><!--??-->
+</head>
+<body>
+<main>
+    <section>
+        <h3>Currency I have</h3>
+        <p>
+            <!-- input/output local amount -->
+            <input type="text" id="localAmount" size="15" value="15.0"><!--??-->
+            <!-- select local exchange -->
+            <select id="localExchange"><!--??-->
+                <option value="chf">CHF</option><!--??-->
+            </select><!--??-->
+        </p>
+    </section>
+    <section class="operation">
+        <!-- input foreign to local conversion -->
+        <input type="image"  src="img/arrows-left.png" onclick="foreignToLocal();"><!--??-->
+        <!-- input local to foreign conversion -->
+        <input type="image" src="img/arrows-right.png" onclick="localToForeign();"> <!--??-->
+    </section>
+    <section>
+        <h3>Currency I want</h3>
+        <p>
+            <!-- input/output foreign amount -->
+            <input type="text" id="foreignAmount" size="15" value=""><!--??-->
+            <!-- select foreign exchange -->
+            <select id="foreignExchange"><!--??-->
+                <option value="eur">EUR</option><!--??-->
+                <option value="usd">USD</option><!--??-->
+            </select><!--??-->
+        </p>
+    </section>
+</main>
+</body>
+</html>
